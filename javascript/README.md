@@ -1416,6 +1416,37 @@ Inspired from [Airbnb's javascript styleguide](https://github.com/airbnb/javascr
     ```
 
 
+    - [18.7](#18.7) <a name='18.7'></a> Remove unecessary spaces in parens
+
+      ```javascript
+      // bad
+      foo(.1);
+
+      // bad
+      foo(1.);
+
+      // bad
+      foo(.1.);
+
+      // bad
+      foo(.1..+.2);
+
+      // bad
+      foo( 1 +
+          1 );
+
+      // good
+      foo(1);
+
+      // good
+      foo(1.+.2);
+
+      // good
+      foo(1.+
+      ....2);
+      ```
+
+
 **[⬆ back to top](#table-of-contents)**
 
 ## Commas

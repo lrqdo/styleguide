@@ -163,6 +163,7 @@
       "before": false,
       "after": true
     }],
+    "space-in-parens": [2, "never"], // http://eslint.org/docs/rules/space-in-parens
     "space-after-keywords": 2,       // http://eslint.org/docs/rules/space-after-keywords
     "space-before-blocks": 2,        // http://eslint.org/docs/rules/space-before-blocks
     "space-before-function-paren": [2, "never"], // http://eslint.org/docs/rules/space-before-function-paren
