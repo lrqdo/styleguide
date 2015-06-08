@@ -1,0 +1,16 @@
+{
+  "name": "styleguide",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Style reference",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrqdo/styleguide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lrqdo/styleguide/issues"
+  },
+  "homepage": "https://github.com/lrqdo/styleguide#readme"
+}
