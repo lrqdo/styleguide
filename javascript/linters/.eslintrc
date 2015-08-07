@@ -45,6 +45,7 @@
     /**
      * Possible errors
      */
+    "block-scoped-var": 2,
     "comma-dangle": [
       2,
       "always-multiline"
@@ -65,11 +66,10 @@
     "no-invalid-regexp": 2,
     "no-irregular-whitespace": 2,
     "no-obj-calls": 2,
-    "no-reserved-keys": 2,
     "no-sparse-arrays": 2,
     "no-unreachable": 2,
+    "quote-props": 0,
     "use-isnan": 2,
-    "block-scoped-var": 2,
 
     /**
      * Best practices
