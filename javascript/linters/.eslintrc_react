@@ -42,6 +42,7 @@
         "componentWillUnmount",
         "/^on.+$/",
         "/^get.+$/",
+        "/^((?!(render)).)+$/",
         "/^render.+$/",
         "render"
       ]
