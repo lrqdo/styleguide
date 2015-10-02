@@ -1099,7 +1099,7 @@ Inspired from [Airbnb's javascript styleguide](https://github.com/airbnb/javascr
     if (test)
         return false;
 
-    // good
+    // bad
     if (test) return false;
 
     // good
