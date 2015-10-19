@@ -33,6 +33,7 @@ We are using https://github.com/brigade/scss-lint/#installation for linting.
 gem install scss_lint
 ```
 For SublimeText you can use this plugin : https://packagecontrol.io/packages/SublimeLinter-contrib-scss-lint
+
 Atom : https://atom.io/packages/linter-scss-lint
 
 Unfortunately scss-lint does not support inheritance in configuration files, and is not likely to support it in the future (https://github.com/brigade/scss-lint/issues/516). And by default, scss-lint looks for the configuration file in the root of your current directory. 
