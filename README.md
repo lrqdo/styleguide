@@ -34,10 +34,5 @@ gem install scss_lint
 ```
 For SublimeText you can use this plugin : https://packagecontrol.io/packages/SublimeLinter-contrib-scss-lint
 
-By default scss-lint needs to have the .scss-lint.yml file at the root of your project. You can either configure your editor to override this behavior, or copy the file at the root of your project, suing for example a npm hook in your package.json:
-
-```
-"scripts": {
-    "postinstall": "cp node_modules/styleguide/scss/linters/.scss-lint.yml .scss-lint.yml"
-}
-```
+Unfortunately scss-lint does not support inheritance in configuration files, and is not likely to support it in the future (https://github.com/brigade/scss-lint/issues/516). And by default, scss-lint looks for the configuration file in the root of your current directory. 
+This is why, for conveniency, the scss-lint.yml file is copied to the root of front-web : https://github.com/lrqdo/front-web/blob/master/package.json#L13
