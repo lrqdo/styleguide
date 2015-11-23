@@ -45,6 +45,11 @@
     "prefer-template": 1,
 
     /**
+     * React
+     */
+    "jsx-quotes": [2, "prefer-double"],
+
+    /**
      * Variables
      */
     "no-delete-var": 2,
