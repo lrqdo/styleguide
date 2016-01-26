@@ -28,21 +28,9 @@
     "react/wrap-multilines": 0,
     "react/sort-comp": [2, {
       "order": [
-        "displayName",
-        "mixins",
-        "statics",
-        "propTypes",
-        "getDefaultProps",
-        "getInitialState",
-        "componentWillMount",
-        "componentDidMount",
-        "componentWillReceiveProps",
-        "shouldComponentUpdate",
-        "componentWillUpdate",
-        "componentWillUnmount",
+        "lifecycle",
         "/^on.+$/",
-        "/^get.+$/",
-        "/^((?!(render)).)+$/",
+        "everything-else",
         "/^render.+$/",
         "render"
       ]
