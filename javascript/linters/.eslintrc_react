@@ -6,8 +6,7 @@
   {
     "settings": {
       "react": {
-        "pragma": "React",  // Pragma to use, default to "React"
-        "version": "0.14" // React version, default to the latest React stable release
+        "version": "0.14"
       }
     }
   },
