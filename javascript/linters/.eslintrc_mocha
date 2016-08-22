@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "mocha"
+  ],
+  "rules": {
+    "mocha/no-exclusive-tests": 2,
+    "mocha/no-mocha-arrows": 2,
+    "mocha/no-sibling-hooks": 2
+  }
+}
