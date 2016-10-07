@@ -104,6 +104,9 @@
     "valid-typeof": 2,
     "no-unexpected-multiline": 2,
 
+    /* We never want to use localStorage directly */
+    "no-restricted-globals": [2, "localStorage"],
+
     /**
      * Best practices
      */
