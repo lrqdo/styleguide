@@ -14,6 +14,7 @@
     "react/display-name": 0,
     "react/jsx-boolean-value": 2,
     "react/jsx-closing-bracket-location": [2, "line-aligned"],
+    "react/jsx-closing-tag-location": 2,
     "react/jsx-curly-spacing": [2, "never", { "allowMultiline": true }],
     "react/jsx-first-prop-new-line": [2, "multiline"],
     "react/jsx-indent": [2, 4],
