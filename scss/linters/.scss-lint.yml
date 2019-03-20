@@ -45,7 +45,7 @@ linters:
 
   HexNotation:
     enabled: true
-    style: uppercase # or 'lowercase'
+    style: lowercase # or 'uppercase'
 
   HexValidation:
     enabled: true
@@ -70,12 +70,14 @@ linters:
     enabled: false
     convention: ^[a-zA-Z0-9]+(?:-{1,2}[a-zA-Z0-9]+)?$ # or 'BEM', or a regex pattern
 
+  NestingDepth:
+    max_depth: 4
+
   PlaceholderInExtend:
     enabled: true
 
   PropertySortOrder:
-    enabled: true
-    ignore_unspecified: false
+    enabled: false
 
   PropertySpelling:
     enabled: true
