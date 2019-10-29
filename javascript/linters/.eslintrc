@@ -209,5 +209,13 @@
     ],
     "space-infix-ops": 1,
     "spaced-comment": 1,
-  }
+  },
+  "overrides": [
+    {
+      "files": ["test/functional/**/*.js", "test/unit/throwOnWarning.js"],
+      "rules": {
+        "no-console": 0
+      }
+    }
+  ]
 }
