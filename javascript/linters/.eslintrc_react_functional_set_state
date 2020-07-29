@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "react-functional-set-state"
+  ],
+  "rules": {
+    "react-functional-set-state/no-this-state-props": "error"
+  }
+}
